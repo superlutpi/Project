@@ -7,7 +7,7 @@
     <ImageView
         android:id="@+id/gambar_detail_destinasi"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="300dp"
         android:src="@drawable/destinasi"
         android:scaleType="fitXY"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nama Destinasi"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginStart="40dp"
             android:layout_marginTop="15dp"
@@ -28,9 +28,9 @@
 
         <ImageView
             android:id="@+id/gambar_bintang_review_detail"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="25dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginStart="20dp"
             app:layout_constraintStart_toEndOf="@id/nama_detail_destinasi"
             app:layout_constraintTop_toBottomOf="@id/gambar_detail_destinasi"
