@@ -7,7 +7,7 @@
     <ImageView
         android:id="@+id/gambar_detail_destinasi"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="500dp"
         android:src="@drawable/destinasi"
         android:scaleType="fitXY"
         app:layout_constraintTop_toTopOf="parent"
